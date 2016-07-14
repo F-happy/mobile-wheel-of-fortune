@@ -1,0 +1,25 @@
+{
+  "name": "mobile-rotate",
+  "version": "1.0.0",
+  "description": "This is a front-end rotary plug ins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F-happy/mobile-wheel-of-fortune.git"
+  },
+  "keywords": [
+    "rotate",
+    "wheel-of-fortune",
+    "jquery",
+    "mobile"
+  ],
+  "author": "jonnyf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/F-happy/mobile-wheel-of-fortune/issues"
+  },
+  "homepage": "https://github.com/F-happy/mobile-wheel-of-fortune#readme"
+}
