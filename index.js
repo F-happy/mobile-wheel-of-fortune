@@ -49,12 +49,12 @@ module.exports = (eleNode) => {
 
     return {
         rotate: function (opt) {
-            var angle, animateTo, duration, callback = function () {
+            var angle = 0, animateTo, duration = 1000, callback = function () {
             };
             if (typeof opt == "undefined") {
-                return;
+                return null;
             } else if (typeof opt == "number") {
-                angle = opt;
+                animateTo = opt;
             } else {
                 angle = opt['angle'];
                 animateTo = opt['animateTo'];
@@ -64,7 +64,7 @@ module.exports = (eleNode) => {
             _rotate(angle, animateTo, duration, callback);
         },
         getRotateAngle: function () {
-            return ele.style.transform.replace(/[^0-9\.]+/g, '')
+            return ele.style[supportedCSS].replace(/[^0-9\.]+/g, '');
         }
     }
 };
