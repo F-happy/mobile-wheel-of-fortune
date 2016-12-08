@@ -1,6 +1,7 @@
 # mobile-rotate
 [![npm](https://img.shields.io/npm/v/mobile-rotate.svg?style=flat)](https://www.npmjs.com/package/mobile-rotate)
 [![npm](https://img.shields.io/npm/l/mobile-rotate.svg?style=flat)](https://www.npmjs.com/package/mobile-rotate)
+[![npm](https://img.shields.io/npm/dt/mobile-rotate.svg?style=flat-square)](https://www.npmjs.com/package/mobile-rotate)
 > 这是一个由原生 js 编写的移动端高性能转盘插件, 在移动端上面使用了requestAnimationFrame 请求动画帧来进行逻辑的实现。
 
 ### 安装：
